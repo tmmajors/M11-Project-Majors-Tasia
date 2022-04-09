@@ -7,11 +7,13 @@ public class Crew extends Person {
     public Crew() {
     }
 
+    //crew constructor
     public Crew(String name, double paid, String department) {
         super(name, paid);
         this.department = department;
     }
 
+    //getter and setter
     public String getDepartment() {
         return department;
     }

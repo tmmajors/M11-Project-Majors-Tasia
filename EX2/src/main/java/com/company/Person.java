@@ -17,6 +17,7 @@ public abstract class Person {
         this.earned = 0;
     }
 
+    //method to add money earned
     public void addMoneyEarned() {
         this.earned += getPaid();
     }

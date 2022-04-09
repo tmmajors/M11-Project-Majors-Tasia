@@ -7,11 +7,13 @@ public class Actor extends Person {
     public Actor() {
     }
 
+    //Actor constructor
     public Actor(String name, double paid, String role) {
      super(name, paid);
      this.role = role;
     }
 
+    //getter and setter
     public String getRole() {
         return role;
     }
